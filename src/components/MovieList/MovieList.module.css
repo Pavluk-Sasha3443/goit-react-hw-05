@@ -1,0 +1,30 @@
+.movie {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 60px;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 25px 2px;
+}
+.movieCard {
+  padding: 10px;
+  background-color: rgb(50, 49, 49);
+  border-radius: 30px;
+  transition: transform 0.3s ease;
+  max-width: 250px;
+}
+
+.movieCard:hover {
+  transform: scale(1.1);
+}
+.poster {
+  border-radius: 30px;
+  max-width: 250px;
+}
+
+.title {
+  text-align: center;
+  color: rgb(254, 254, 254);
+}

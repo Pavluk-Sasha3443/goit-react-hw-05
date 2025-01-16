@@ -1,0 +1,37 @@
+.form {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 400px;
+  position: static;
+}
+
+.inputWrapper {
+  position: relative;
+  width: 100%;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.input {
+  height: 36px;
+  background-color: white;
+  width: 100%;
+  border-radius: 10px;
+  padding-left: 45px;
+  border: 2px solid #4d4d4d;
+  color: #000000;
+  font-size: 15px;
+}
+
+.btn {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  color: #424242;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+}

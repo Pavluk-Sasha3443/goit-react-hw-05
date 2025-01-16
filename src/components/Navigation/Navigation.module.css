@@ -1,0 +1,28 @@
+.nav {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  margin-left: 20px;
+}
+
+.navContainer {
+  width: 100%;
+  background-color: #333;
+  border-radius: 50px;
+  border: #292929 solid 1px;
+}
+
+.link {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  text-decoration: none;
+  padding: 10px;
+  transition: transform 0.9s ease-in-out, color 0.4s ease-out;
+  position: relative;
+}
+.link:hover {
+  transform: scale(1.2);
+}
+.link.active {
+  color: rgb(158, 158, 158);
+}
