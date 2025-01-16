@@ -1,8 +1,8 @@
 import { useSearchParams } from "react-router-dom";
 import { useEffect, useState } from "react";
-import MovieList from "../../MovieList/MovieList";
-import SearchForm from "../../SearchForm/SearchForm";
-import { fetchSearchMovie } from "../../../FakeBackEnd/movie-api";
+import MovieList from "../../components/MovieList/MovieList";
+import SearchForm from "../../components/SearchForm/SearchForm";
+import { fetchSearchMovie } from "../../FakeBackEnd/movie-api";
 
 const MoviesPage = () => {
   const [movies, setMovies] = useState([]);

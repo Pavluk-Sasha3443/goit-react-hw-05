@@ -7,8 +7,8 @@ import {
   Outlet,
 } from "react-router-dom";
 import { useEffect, useState, Suspense, useRef } from "react";
-import { fetchMovieById } from "../../../FakeBackEnd/movie-api";
-import Loader from "../../Loader/Loader";
+import { fetchMovieById } from "../../FakeBackEnd/movie-api";
+import Loader from "../../components/Loader/Loader";
 
 import clsx from "clsx";
 

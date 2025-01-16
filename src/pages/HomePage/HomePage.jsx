@@ -1,7 +1,7 @@
 import css from "./HomePage.module.css";
-import MovieList from "../../MovieList/MovieList";
-import Loader from "../../Loader/Loader";
-import { fetchMovies } from "../../../FakeBackEnd/movie-api";
+import MovieList from "../../components/MovieList/MovieList";
+import Loader from "../../components/Loader/Loader";
+import { fetchMovies } from "../../FakeBackEnd/movie-api";
 import { useEffect, useState } from "react";
 
 const HomePage = () => {
